@@ -1,0 +1,1 @@
+The program is missing a closing bracket somewhere, i.e. there is an opening bracket but not a corresponding closing bracket.
