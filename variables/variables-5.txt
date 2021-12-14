@@ -1,0 +1,8 @@
+First program:
+
+The local variable x can modified within the block following the times method since inner scope can access variables initialized in an outer scope. Therefore, the block adds 1 to the original value of 0 three times, giving a final value of 3. "puts x" will print "3".
+
+
+Second program:
+
+The block can access y and adds 1 to it three times, giving it a value of 3. The block then initializes a new local variable x, which is given the value of y (3). However, an error message will be printed when the program attempts to access x outside of the block where it was initialized.
